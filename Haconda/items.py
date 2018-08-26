@@ -15,6 +15,7 @@ class HacondaItem(scrapy.Item):
     univ_type = scrapy.Field()
     name = scrapy.Field()
     description = scrapy.Field()
+    intro_msg = scrapy.Field()
     image_link = scrapy.Field()
     information_link = scrapy.Field()
     location = scrapy.Field()

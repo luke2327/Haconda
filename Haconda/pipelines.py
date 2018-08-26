@@ -8,4 +8,7 @@
 
 class HacondaPipeline(object):
     def process_item(self, item, spider):
+        import time
+        from datetime import datetime
+        print 'action' + str(datetime.now())
         return item
