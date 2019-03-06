@@ -7,12 +7,9 @@ import logging
 from Haconda.items import HacondaItem
 
 class JapanUnivInformationSpider(scrapy.Spider):
-    name = "info_jp_jpss"
+    name = "info_jp_accept_eju_list"
     start_urls = [
-            # "https://www.jpss.jp/en/search/?p=1&tb=1&a%5Bnm%5D=&a%5Bfw%5D=&u%5Bfc%5D=&u%5Bdp%5D=%E6%83%85%E5%A0%B1&u%5Bac%5D=&a%5Bpf%5D=8-9-10-11-12-13-14-15-19-20&search=search",
-            # "https://www.jpss.jp/en/search/?p=2&tb=1&a%5Bnm%5D=&a%5Bfw%5D=&u%5Bfc%5D=&u%5Bdp%5D=%E6%83%85%E5%A0%B1&u%5Bac%5D=&a%5Bpf%5D=8-9-10-11-12-13-14-15-19-20&search=search",
-            # "https://www.jpss.jp/en/search/?p=3&tb=1&a%5Bnm%5D=&a%5Bfw%5D=&u%5Bfc%5D=&u%5Bdp%5D=%E6%83%85%E5%A0%B1&u%5Bac%5D=&a%5Bpf%5D=8-9-10-11-12-13-14-15-19-20&search=search",
-            "https://www.jpss.jp/en/search/?p=4&tb=1&a%5Bnm%5D=&a%5Bfw%5D=&u%5Bfc%5D=&u%5Bdp%5D=%E6%83%85%E5%A0%B1&u%5Bac%5D=&a%5Bpf%5D=8-9-10-11-12-13-14-15-19-20&search=search",
+            "https://www.jasso.go.jp/ryugaku/study_j/eju/examinee/prearrival/uni_national.html",
             ]
 
     def start_requests(self):
